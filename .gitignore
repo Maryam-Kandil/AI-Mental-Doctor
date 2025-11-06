@@ -1,0 +1,58 @@
+# ==============================
+# AI-Mental-Doctor Project
+# Git Ignore Configuration
+# ==============================
+
+# ---- Data & Artifacts ----
+data/*.csv
+data/*.xlsx
+data/*.json
+*.zip
+*.tar.gz
+*.rar
+*.h5
+*.joblib
+*.pkl
+*.sav
+
+# ---- Results ----
+results/logs/
+results/plots/
+results/summaries/
+results/*.json
+results/*.txt
+
+# ---- Temporary / Cache Files ----
+*.tmp
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- OS / Misc ----
+*.DS_Store
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ---- Model Checkpoints ----
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# ---- Reports / Docs (optional to keep private) ----
+docs/*.pdf
+docs/*.docx
+!docs/README.md   # keep docs/README.md if you have one
+
+# ---- Other optional large files ----
+*.npy
+*.npz
+*.mat

@@ -1,0 +1,41 @@
+# ==============================
+# AI Mental Doctor - Requirements
+# ==============================
+
+# --- Core Python ---
+numpy>=1.23.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+scipy>=1.9.0
+
+# --- Deep Learning ---
+tensorflow>=2.12.0
+keras>=2.12.0
+
+# --- Natural Language Processing ---
+nltk>=3.8.1
+spacy>=3.6.0
+textblob>=0.17.1
+regex
+emoji
+
+# --- Data Visualization ---
+matplotlib>=3.7.1
+seaborn>=0.12.2
+
+# --- Utilities & Logging ---
+tqdm
+joblib
+logging
+datetime
+
+# --- Optional / Advanced ---
+gensim>=4.3.0
+wordcloud
+
+# --- Environment ---
+python-dotenv
+
+# --- Notes ---
+# Minimal requirements will also be generated automatically
+# in /results/requirements_*.txt (Cell 10 of the notebook)
